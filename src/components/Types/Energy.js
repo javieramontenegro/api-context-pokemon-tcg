@@ -22,32 +22,38 @@ const Energy = () => {
             src={psy}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Psychic")}
+            alt="psy"
           />
 
           <img
             src={normal}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Colorless")}
+            alt="normal"
           />
           <img
             src={dragon}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Dragon")}
+            alt="dragon"
           />
           <img
             src={fairy}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Fairy")}
+            alt="fairy"
           />
           <img
             src={figth}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Fighting")}
+            alt="figth"
           />
           <img
             src={darck}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Darkness")}
+            alt="dark"
           />
         </div>
         {/*  FILA 2 */}
@@ -56,27 +62,32 @@ const Energy = () => {
             src={fire}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Fire")}
+            alt="fire"
           />
 
           <img
             src={grass}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Grass")}
+            alt="grass"
           />
           <img
             src={electric}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Lightning")}
+            alt="ligth"
           />
           <img
             src={steel}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Metal")}
+            alt="metal"
           />
           <img
             src={water}
             className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Water")}
+            alt="water"
           />
         </div>
       </div>
