@@ -15,12 +15,12 @@ const Energy = () => {
   const { setType } = useContext(TypeContext);
   return (
     <>
-      <div className="w-full h-full flex flex-col justify-center my-24">
+      <div className="w-full h-full flex  flex-col justify-center my-24">
         {/*  FILA 1 */}
-        <div className="w-full h-auto flex justify-center my-4">
+        <div className="w-full h-auto flex flex-wrap justify-center my-4">
           <img
             src={psy}
-            className="w-full h-auto img-energy-type"
+            className="w-full h-auto img-energy-type mx-4"
             onClick={() => setType("Psychic")}
           />
 
@@ -51,7 +51,7 @@ const Energy = () => {
           />
         </div>
         {/*  FILA 2 */}
-        <div className="w-full h-auto flex justify-center my-4 ">
+        <div className="w-full h-auto flex justify-center my-4 flex-wrap">
           <img
             src={fire}
             className="w-full h-auto img-energy-type mx-4"

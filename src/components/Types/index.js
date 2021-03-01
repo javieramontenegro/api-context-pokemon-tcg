@@ -9,7 +9,7 @@ const TypesList = () => {
 
   return (
     <>
-      <div className="w-full h-full flex flex-wrap justify-center px-20">
+      <div className="w-full h-full flex flex-wrap justify-center px-6 md:px-20">
         <Types typePoke={type} cards={cards} />
       </div>
     </>
