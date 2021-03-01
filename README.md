@@ -10,12 +10,12 @@ OBJETIVOS:
 
 ## API
 
-La api utilizada fue la de [Pokemon TCG]("https://pokemontcg.io/")
+La api utilizada fue la de [Pokemon TCG](https://pokemontcg.io/)
 
 ### Tecnologías utilizadas
 
 El proyecto fue realizado con React, utilizando el manejador de estados Context API aplicando el patrón de arquitectura de contextos.
-Para el CSS se utilizó El Framework css [tailwindcss]("https://tailwindcss.com/").
+Para el CSS se utilizó El Framework css [tailwindcss](https://tailwindcss.com/).
 
 ## Proyecto
 
